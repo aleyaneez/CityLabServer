@@ -10,3 +10,6 @@ python -m venv server
 
 5. Instalar dependencias
 pip install -r requirements.txt
+
+4. Iniciar servidor
+uvicorn main:app --reload
