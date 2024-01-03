@@ -8,6 +8,8 @@ python -m venv server
 -En Windows: server\Scripts\activate
 -En macOS y Linux: source server/bin/activate
 
+4. Dirigir a la ruta del servidor con: cd ruta_servidor
+
 5. Instalar dependencias:
 pip install -r requirements.txt
 
