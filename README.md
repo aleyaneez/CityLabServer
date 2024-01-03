@@ -13,3 +13,5 @@ pip install -r requirements.txt
 
 4. Iniciar servidor:
 uvicorn main:app --reload
+
+5. Para ingresar las credenciales, utiliza 'configuracion.py' y reemplaza las credenciales en 'file.write('aws_access_key_id = access key aquí\n')' y file.write('aws_secret_access_key = secret access key aquí\n')
