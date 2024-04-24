@@ -1,5 +1,5 @@
-# CityLabServer
-Servidor intermediario entre S3 y aplicacion Android
+# CityLabRESTAPI
+REST API intermediaria entre S3 y aplicacion Android
 
 1. Configuración del entorno virtual:
 python -m venv server
@@ -8,12 +8,12 @@ python -m venv server
 -En Windows: server\Scripts\activate
 -En macOS y Linux: source server/bin/activate
 
-4. Dirigir a la ruta del servidor con: cd ruta_servidor
+4. Dirigir a la ruta de la REST API con: cd ruta
 
 5. Instalar dependencias:
 pip install -r requirements.txt
 
-4. Iniciar servidor:
+4. Iniciar API:
 uvicorn main:app --reload
 
 5. Para ingresar las credenciales, edita 'configuracion.py' y reemplaza las credenciales en 'file.write('aws_access_key_id = access key aquí\n')' y file.write('aws_secret_access_key = secret access key aquí\n'), luego ejecuta
